@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 400px;
+  width: 60%;
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  padding: 5px;
+  width: 80px;
+  border-radius: 5px;
+  color: white;
+}
+
+#start {
+  background-color: blue;
+}
+
+#stop {
+  background-color: green;
+}
+
+#reset {
+  background-color: red;
+}
+
+#duration {
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+}
